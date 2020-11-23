@@ -22,8 +22,8 @@ if __name__ == '__main__':
             continue
 
         if board.check_win(active_player):
-            print("Du hast Gewonnen! GG!")
             print(board.print_board())
+            print("Du hast Gewonnen! GG!")
             exit()
 
         if active_player == player_1:
